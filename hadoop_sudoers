@@ -1,0 +1,3 @@
+# I ensured that the account is secure. Ensure that you are aware of the following privileges.
+Cmnd_Alias HDFS = /usr/bin/hdfs, /usr/bin/hadoop, /usr/bin/hbase
+nrpe HADOOPMASTER=(hdfs, hbase) NOPASSWD: HDFS
